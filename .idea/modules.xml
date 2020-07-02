@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringMvcPro.iml" filepath="$PROJECT_DIR$/.idea/SpringMvcPro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro_bussiness/pro_bussiness.iml" filepath="$PROJECT_DIR$/pro_bussiness/pro_bussiness.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro_common/pro_common.iml" filepath="$PROJECT_DIR$/pro_common/pro_common.iml" />
+    </modules>
+  </component>
+</project>
