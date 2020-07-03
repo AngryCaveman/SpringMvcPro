@@ -16,9 +16,9 @@ public class InterfacePage {
             @RequestParam(value="usersex",required=false)String sex,
             @RequestParam(value="remark",required=false)String remark
                                ) {
-        System.out.println(name + " " + sex+" "+remark);
+        System.out.println(name + " " + sex +" "+remark);
         System.out.println("success 001");
-        System.out.println("test branch");
+        System.out.println("test branch 001");
         return "success";
     }
 
