@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping("/interface")
 public class InterfacePage {
-    @RequestMapping("/001")
+    @RequestMapping("001")
     @ResponseBody
     public String getParamByGet(
             @RequestParam(value="username", required=true)String name,
@@ -20,6 +20,7 @@ public class InterfacePage {
         System.out.println("success 001");
         System.out.println("test branch 002");
         System.out.println("test branch 003");
+        System.out.println("test branch balabala。。。。");
         return "success";
     }
 
