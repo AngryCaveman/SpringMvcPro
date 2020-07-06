@@ -10,7 +10,7 @@ public class HomePage {
 
     @RequestMapping("001")
     public String sayHello() {
-        System.out.println("branch 002 update");
+        System.out.println("branch 001 update homepage");
         return "/HomePage/homepage";
     }
 }
