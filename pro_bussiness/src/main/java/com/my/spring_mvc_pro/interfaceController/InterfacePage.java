@@ -18,7 +18,8 @@ public class InterfacePage {
                                ) {
         System.out.println(name + " " + sex+" "+remark);
         System.out.println("branch 001 update");
-        System.out.println("test branch balabala。。。。");
+        System.out.println("test branch 001 balabala。。。。");
+        System.out.println("test branch 001 balabala。。。。");
         return "success";
     }
 
