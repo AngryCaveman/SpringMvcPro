@@ -17,9 +17,8 @@ public class InterfacePage {
             @RequestParam(value="remark",required=false)String remark
                                ) {
         System.out.println(name + " " + sex+" "+remark);
-        System.out.println("branch 001 update");
-        System.out.println("test branch 001 balabala。。。。");
-        System.out.println("test branch 001 balabala。。。。");
+        System.out.println("branch 002 update interfacepage");
+        System.out.println("test branch balabala。。。。");
         return "success";
     }
 
